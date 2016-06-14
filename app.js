@@ -29,6 +29,11 @@ app.get('/cupcakes', function (req, res) {
 	res.render('cupcakes');
 });
 
+app.get('/contact', function (req, res) {   
+	//res.send('Inspirational quotes inspire'); 
+	res.render('contact');
+});
+
 app.listen(3000, function () {  
 	console.log('Inspiration app listening on port 3000!'); 
 });
