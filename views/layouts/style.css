@@ -1,0 +1,10 @@
+li {
+	font-family: garamond;
+	list-style: none;
+}
+
+#logo {
+	width: 500px;
+	height: 500px;
+	background-color: blue;
+}
