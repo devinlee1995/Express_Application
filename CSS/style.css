@@ -1,6 +1,7 @@
 body {
 	width: 100%;
 	height: 100%;
+	background-color: #FF5C5F;
 }
 
 li {
@@ -12,8 +13,15 @@ li {
 	padding-left: 50px;
 }
 
+#main-content {
+	width: 90%;
+	height: 500px;
+	background-color: white;
+	border-radius: 10px;
+	margin: 0px auto 0px auto;
+}
+
 #logo {
-	padding-top: 40px;
 	width: 150px;
 	height: 150px;
 	margin: 10px auto 10px auto;
