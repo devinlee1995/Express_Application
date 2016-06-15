@@ -34,6 +34,14 @@ app.get('/contact', function (req, res) {
 	res.render('contact');
 });
 
+app.get('/login', function (req, res) {   
+	var username = req.query.username;
+	var password = req.query.password;
+	console.log(req.query.username);
+	console.log(req.query.password);
+	res.render('home', {username: username});
+});
+
 app.listen(3000, function () {  
 	console.log('Inspiration app listening on port 3000!'); 
 });
